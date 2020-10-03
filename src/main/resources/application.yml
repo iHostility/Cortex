@@ -1,6 +1,6 @@
 app:
   datasource:
+      driverClassName: org.postgresql.Driver
       jdbc-url: jdbc:postgresql://localhost:5432/cortex
       username: postgres
       password: password
-      pool-size: 30
